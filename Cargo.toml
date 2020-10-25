@@ -1,0 +1,12 @@
+[package]
+name = "hangman"
+version = "0.1.0"
+authors = ["Jori <jvalkenhoff@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ureq = { version = "*", features = ["json"] }
+serde = "1.0.117"
+console = "0.13.0"
